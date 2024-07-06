@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body theme="black">
+    <div class="main w-full">
+        <nav class="dropdown fixed top-0 left-0 w-full z-50">
+            <ul class="flex justify-between items-center px-4 bg-black bg-opacity-50">
+                <li class="text-white hover:text-gray-200"><a href="#">Home</a></li>
+                <li class="text-white hover:text-gray-200"><a href="#">About</a></li>
+                <li class="text-white hover:text-gray-200"><a href="#">Products</a></li>
+                <li class="text-white hover:text-gray-200"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div data-color="black" class="home section w-full h-[500vh] relative">
+            <div class="w-full sticky top-0 left-0">
+                <div class="btmtext absolute bottom-[7%] w-52 left-[3%] z-[4]">
+                    <h1>
+                        "The web is the ultimate equalizer.
+                        It gives everyone a voice and a platform."
+                    </h1>
+                </div>
+                <div style="--clip:100%"
+                    class="vfull w-full h-screen absolute top-0 left-0 bg-black overflow-hidden z-[3]">
+                    <video autoplay loop muted
+                        class="absolute w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                        src="https://firebasestorage.googleapis.com/v0/b/vehan-5008a.appspot.com/o/Untitled%20video%20-%20Made%20with%20Clipchamp%20(1).mp4?alt=media&token=c8a7cb78-7ab1-464c-b9ac-14b78d94bee9"></video>
+                </div>
+                <div class="marquuescontainer w-full h-screen relative overflow-hidden">
+                    <div class="heading absolute top-[7%] left-1/2 -translate-x-1/2 w-60 text-center">
+                        <h1 class="text-xl font-regular">"The web is broad, and there's always something new to learn."
+
+                        </h1>
+                    </div>
+                    <div
+                        class="slidesm absolute scale-[1] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  w-[90%] ">
+                        <div class="row lt -translate-x-1/2 w-full flex items-center gap-10 whitespace-nowrap">
+                            <div class="elem flex items-center gap-10 ">
+                                <h1 class="font-['ff'] text-7xl font-semibold">frontend</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] overflow-hidden bg-yellow-600 rounded-full">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483181_Ellipse%20845-5.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10 ">
+                                <h1 class="font-['ff'] text-7xl font-semibold">backend</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] bg-yellow-600 rounded-full overflow-hidden">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483183_Ellipse%20845-6.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10 ">
+                                <h1 class="font-['ff'] text-7xl font-semibold">ui</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] bg-yellow-600 rounded-full overflow-hidden">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317e_Ellipse%20845-7.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10 ">
+                                <h1 class="font-['ff'] text-7xl font-semibold">ux</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] bg-yellow-600 rounded-full overflow-hidden">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483181_Ellipse%20845-5.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10 ">
+                                <h1 class="font-['ff'] text-7xl font-semibold">frontend</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] bg-yellow-600 rounded-full overflow-hidden">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483189_Ellipse%20845-1.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10 ">
+                                <h1 class="font-['ff'] text-7xl font-semibold">backend</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] bg-yellow-600 rounded-full overflow-hidden">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317e_Ellipse%20845-7.png"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row rt -translate-x-1/3 w-full flex items-center gap-10 whitespace-nowrap">
+                            <div class="elem flex items-center gap-10 ">
+                                <h1 class="font-['ff'] text-7xl font-semibold">ui</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] bg-yellow-600 rounded-full overflow-hidden">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483189_Ellipse%20845-1.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10 ">
+                                <h1 class="font-['ff'] text-7xl font-semibold">ux</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] bg-yellow-600 rounded-full overflow-hidden">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483183_Ellipse%20845-6.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10 ">
+                                <h1 class="font-['ff'] text-7xl font-semibold">frontend</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] bg-yellow-600 rounded-full overflow-hidden">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483184_Ellipse%20845.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10 ">
+                                <h1 class="font-['ff'] text-7xl font-semibold">backend</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] bg-yellow-600 rounded-full overflow-hidden">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483189_Ellipse%20845-1.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10 ">
+                                <h1 class="font-['ff'] text-7xl font-semibold">fullstack</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] bg-yellow-600 rounded-full overflow-hidden">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483185_Ellipse%20844.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10 ">
+                                <h1 class="font-['ff'] text-7xl font-semibold">saas</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] bg-yellow-600 rounded-full overflow-hidden">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483183_Ellipse%20845-6.png"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row lt -translate-x-2/3 w-full flex items-center gap-10 whitespace-nowrap">
+                            <div class="elem flex items-center gap-10 ">
+                                <h1 class="font-['ff'] text-7xl font-semibold">react</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] bg-yellow-600 rounded-full">
+                                    <img src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317e_Ellipse%20845-7.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10 ">
+                                <h1 class="font-['ff'] text-7xl font-semibold">frontend</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] bg-yellow-600 rounded-full">
+                                    <img src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483180_Ellipse%20845-4.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10 ">
+                                <h1 class="font-['ff'] text-7xl font-semibold">backend</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] bg-yellow-600 rounded-full">
+                                    <img src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483185_Ellipse%20844.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10 ">
+                                <h1 class="font-['ff'] text-7xl font-semibold">figma</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] bg-yellow-600 rounded-full">
+                                    <img src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483188_Ellipse%20845-2.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10 ">
+                                <h1 class="font-['ff'] text-7xl font-semibold">ui</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] bg-yellow-600 rounded-full">
+                                    <img src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483185_Ellipse%20844.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10 ">
+                                <h1 class="font-['ff'] text-7xl font-semibold">frontend</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] bg-yellow-600 rounded-full">
+                                    <img src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.png"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row rt -translate-x-3/4 w-full flex items-center gap-10 whitespace-nowrap">
+                            <div class="elem flex items-center gap-10 ">
+                                <h1 class="font-['ff'] text-7xl font-semibold">backend</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] bg-yellow-600 rounded-full">
+                                    <img src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483181_Ellipse%20845-5.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10 ">
+                                <h1 class="font-['ff'] text-7xl font-semibold">fullstack</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] bg-yellow-600 rounded-full">
+                                    <img src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483180_Ellipse%20845-4.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10 ">
+                                <h1 class="font-['ff'] text-7xl font-semibold">design</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] bg-yellow-600 rounded-full">
+                                    <img src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483184_Ellipse%20845.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10 ">
+                                <h1 class="font-['ff'] text-7xl font-semibold">developer</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] bg-yellow-600 rounded-full">
+                                    <img src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483181_Ellipse%20845-5.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10 ">
+                                <h1 class="font-['ff'] text-7xl font-semibold">frontend</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] bg-yellow-600 rounded-full">
+                                    <img src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483184_Ellipse%20845.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10 ">
+                                <h1 class="font-['ff'] text-7xl font-semibold">backend</h1>
+                                <div class="imgdiv w-[3rem] h-[3rem] bg-yellow-600 rounded-full">
+                                    <img src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483185_Ellipse%20844.png"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div data-color="grey"
+            class="craft section w-full px-10 flex gap-10 justify-between items-start py-10 relative">
+            <div class="ltext w-[40%] sticky top-0 left-0">
+                <p class="text-xl leading-[2rem] font-regular">
+                    Web development, also known as website development, refers to the tasks associated with creating,
+                    building,
+                    and maintaining websites and web applications that run online on a browser.
+                    It may, however, also include web design, web programming, and database management.
+                </p>
+
+                <h1 class="text-[5rem] mt-20 font-['ff'] leading-[6.5rem]  mb-10">
+                    The Exciting World of Web Development
+                </h1>
+                <div class="w-fit px-10 py-5 border-[1px] border-[--dcyan]">
+                    <div class="masker overflow-hidden">
+                        <span class="inline-block">Explore now</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cards w-1/2">
+                <p class="text-4xl">
+                    There are three main types of web development: front-end development, back-end development, and
+                    full-stack development.<br>
+                    <br>
+                    <br>
+                    Front-end developers focus on the user-facing aspects of a website, such as the design and
+                    interactivity.<br>
+                    <br>
+                    <br>
+                    <br>
+                    Back-end developers focus on the server-side code that makes the website work.<br>
+                    Full-stack developers have skills in both front-end and back-end development.
+                </p>
+            </div>
+        </div>
+
+        <div data-color="black" class="real section w-full">
+            <div class="container h-[400vh] relative">
+                <div class="slides overflow-hidden sticky top-0 left-0 w-full h-[100vh] flex gap-20">
+                    <div class="slide w-full h-screen flex-shrink-0 flex items-center justify-center">
+                        <div class="text font-['ff']">
+                            <h1 class="text-8xl ">Real Talk,</h1>
+                            <h1 class="text-8xl ">Real Impact</h1>
+                        </div>
+                        <div
+                            class="image absolute top-1/2 right-0 rounded-full overflow-hidden -translate-y-1/2 translate-x-1/2 w-[20rem] h-[20rem] bg-black">
+                            <img src="https://firebasestorage.googleapis.com/v0/b/vehan-5008a.appspot.com/o/Screenshot%202024-07-05%20231528.png?alt=media&token=6abfee23-f6e4-467d-a8d7-a3f5c3b48ddd"
+                                alt="" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="slide w-full h-screen flex-shrink-0 flex justify-center items-center relative">
+                        <div
+                            class="img1 absolute z-[3] bottom-0 left-1/4 -translate-y-1/3 w-[10rem] h-[10rem]  rounded-full overflow-hidden">
+                            <img src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65e9edafe67e88c12db2d78b_2.jpg"
+                                alt="">
+                        </div>
+                        <div
+                            class="img2 absolute z-[3] bottom-[65%] left-1/2 -translate-y-1/3 w-[20rem] h-[20rem]  rounded-full overflow-hidden">
+                            <img src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65e9edafe67e88c12db2d78b_2.jpg"
+                                alt="">
+                        </div>
+                        <div
+                            class="image absolute top-1/2 right-0 rounded-full overflow-hidden -translate-y-1/2 translate-x-1/2 w-[20rem] h-[20rem] bg-black">
+                            <img src="https://firebasestorage.googleapis.com/v0/b/vehan-5008a.appspot.com/o/Screenshot%202024-07-05%20231528.png?alt=media&token=6abfee23-f6e4-467d-a8d7-a3f5c3b48ddd"
+                                alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="w-[60%] text-center font-['ff'] relative">
+                            <h3
+                                class="w-1/3 text-left font-semibold leading-7 tracking-tight text-[1.3rem] absolute top-0 left-0 -translate-y-1/2 -translate-x-1/3">
+                                Powerfull people comes from powerfull places...
+                            </h3>
+                            <h1 class="text-[12rem] text-white font-semibold leading-none">20.4M</h1>
+                            <h3 class="text-5xl">
+                                Powerfull people - comes from powerfull places...
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="slide w-full h-screen flex-shrink-0 flex justify-center items-center relative">
+                        <div class="w-[60%] text-center font-['ff'] relative">
+                            <h3
+                                class="w-1/3 text-left font-semibold leading-7 tracking-tight text-[1.3rem] absolute top-0 left-0 -translate-y-1/2 -translate-x-1/3">
+                                Powerfull people comes from powerfull places...
+                            </h3>
+                            <h1 class="text-[12rem] text-white font-semibold leading-none">20.4M</h1>
+                            <h3 class="text-5xl">
+                                Powerfull people comes from powerfull places...
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="slide w-full h-screen flex-shrink-0 flex justify-center items-center relative">
+                        <div class="w-[60%] text-center font-['ff'] relative">
+                            <h3
+                                class="w-1/3 text-left font-semibold leading-7 tracking-tight text-[1.3rem] absolute top-0 left-0 -translate-y-1/2 -translate-x-1/3">
+                                Powerfull people comes from powerfull places...
+                            </h3>
+                            <h1 class="text-[12rem] text-white font-semibold leading-none">20.4M</h1>
+                            <h3 class="text-5xl">
+                                Powerfull people comes from powerfull places...
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div data-color="white" class="team section font-['ff'] py-20">
+            <h1 class="text-center text-8xl tracking-tight">Types of Web Development</h1>
+            <div class="list w-full mt-10 px-10">
+                <div class="listlem border-b border-black w-full py-[3rem] relative ">
+                    <div class="relative z-[3] flex justify-between items-center ">
+                        <div class="left flex gap-20">
+                            <h3 class="text-5xl">01</h3>
+                            <h1 class="text-5xl">front-end development</h1>
+                        </div>
+                        <h3 class="text-3xl"></h3>
+                    </div>
+                    <div
+                        class="pic overflow-hidden opacity-0 absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] rounded-full bg-red-500">
+                        <img src="profile pic.jpg" class="bg-[#F7F9F2]" alt="">
+                    </div>
+                    <div class="bluelayer absolute z-[2] bottom-0 left-0 w-full h-[0] bg-blue-600"></div>
+                </div>
+                <div class="listlem border-b border-black w-full py-[3rem] relative ">
+                    <div class="relative z-[3] flex justify-between items-center ">
+                        <div class="left flex gap-20">
+                            <h3 class="text-5xl">02</h3>
+                            <h1 class="text-5xl">back-end development</h1>
+                        </div>
+                        <h3 class="text-3xl"></h3>
+                    </div>
+                    <div
+                        class="pic overflow-hidden opacity-0 absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] rounded-full bg-red-500">
+                        <img src="profile pic.jpg" alt="">
+                    </div>
+                    <div class="bluelayer absolute z-[2] bottom-0 left-0 w-full h-[0] bg-blue-600"></div>
+                </div>
+                <div class="listlem border-b border-black w-full py-[3rem] relative ">
+                    <div class="relative z-[3] flex justify-between items-center ">
+                        <div class="left flex gap-20">
+                            <h3 class="text-5xl">03</h3>
+                            <h1 class="text-5xl">full-stack development.</h1>
+                        </div>
+                        <h3 class="text-3xl"></h3>
+                    </div>
+
+                    <div
+                        class="pic overflow-hidden opacity-0 absolute z-[4] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] rounded-full bg-red-500">
+                        <img src="profile pic.jpg" alt="">
+                    </div>
+                    <div class="bluelayer absolute z-[2] bottom-0 left-0 w-full h-[0] bg-blue-600"></div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div data-color="black" class="para section w-full h-[70vh] flex items-center justify-center">
+            <div class="text w-[70%] flex flex-col items-center justify-center">
+                <h3 class=" textpara text-3xl font-light text-center leading-[2.8rem]">
+                    A Full-Stack Developer is someone familiar with both front- and back-end development.
+                    Full Stack Developers usually understand a wide variety of programming languages and because of
+                    their versatility,
+                    they might be given more of a leadership role on projects than developers who specialize.
+                    They are generalists, adept at wearing both hats, and familiar with every layer of development.
+                    Obviously,
+                    employers want to hire Full-Stack Developers – according to an Indeed study, they are the
+                    fourth-most in-demand job in tech.
+                </h3>
+                <div class="person flex flex-col items-center justify-center mt-10 gap-5">
+                    <div class="image w-32 h-32 bg-red-500 overflow-hidden opacity-1 rounded-full">
+                        <img src="profile pic.jpg" alt="">
+                    </div>
+                    <h1 class="text-3xl">Miranda Ernst</h1>
+                    <h3>Product Manager
+                        @
+                        HealthCheck360</h3>
+                </div>
+            </div>
+        </div>
+
+        <div data-color="white" class="capsules section flex items-center justify-between w-full h-screen mt-60 px-32">
+            <div class="left w-1/3 h-full flex flex-col justify-between py-10">
+                <h1 class="text-3xl leading-[2.8rem]">
+                    Stay up-to-date on the
+                    latest healthcare
+                    innovations and thought
+                    leadership.
+                </h1>
+                <div class="heading font-['ff']">
+                    <h1 class="text-8xl">
+                        Explore
+                        Our Insights
+                    </h1>
+                    <div class="w-fit mt-10 px-10 py-5 border-[1px] border-[--dcyan]">
+                        <div class="masker overflow-hidden">
+                            <span class="inline-block">Our Solution</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right font-['ff'] h-full flex items-center gap-20">
+                <div
+                    class="capsule -translate-x-30  -rotate-[16deg] flex flex-col items-center border-[1px] border-black rounded-full py-10 px-6">
+                    <div class="w-80 h-80 rounded-full overflow-hidden">
+                        <img class="w-full h-full object-cover" src="profile pic.jpg" alt="">
+                    </div>
+                    <div class="text text-center mt-10">
+                        <h3 class="text-3xl font-semibold">Equity in Tech: An</h3>
+                        <h3 class="text-3xl font-semibold">Equity in Tech: An</h3>
+                        <h3 class="text-3xl font-semibold">Equity in Tech: An</h3>
+                        <h3 class="text-3xl font-semibold">Equity in Tech: An</h3>
+                        <h3 class="text-3xl font-semibold">Equity in Tech: An</h3>
+                    </div>
+                    <button class="bg-purple-400 text-white px-4 py-3 rounded-full text-xs mt-10 mb-40">Thought
+                        leadership</button>
+                </div>
+                <div
+                    class="capsule translate-y-32 -rotate-[16deg] flex flex-col items-center border-[1px] border-black rounded-full py-10 px-6">
+                    <div class="w-80 h-80 rounded-full overflow-hidden">
+                        <img class="w-full h-full object-cover" src="profile pic.jpg" alt="">
+                    </div>
+                    <div class="text text-center mt-10">
+                        <h3 class="text-3xl font-semibold">Equity in Tech: An</h3>
+                        <h3 class="text-3xl font-semibold">Equity in Tech: An</h3>
+                        <h3 class="text-3xl font-semibold">Equity in Tech: An</h3>
+                        <h3 class="text-3xl font-semibold">Equity in Tech: An</h3>
+                        <h3 class="text-3xl font-semibold">Equity in Tech: An</h3>
+                    </div>
+                    <button class="bg-purple-400 text-white px-4 py-3 rounded-full text-xs mt-10 mb-40">Thought
+                        leadership</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const nav = document.querySelector('.dropdown');
+
+        window.addEventListener('scroll', function () {
+            const scrollPosition = window.scrollY;
+
+            if (scrollPosition > 20) { 
+                nav.classList.add('hidden');
+            } else {
+                nav.classList.remove('hidden');
+            }
+        });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
