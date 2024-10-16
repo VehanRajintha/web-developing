@@ -1,3 +1,3 @@
 # Animated Website Design 
 
-![pic](pic.png) 
+![pic](pic.jpg) 
